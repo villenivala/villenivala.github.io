@@ -1,0 +1,61 @@
+.scene4__sky__left {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+    
+}
+
+
+
+.scene4__bush {
+    width: 300px;
+    height: 300px;
+    border-radius: 395px;
+    border-radius: 120px;
+    background: linear-gradient(180deg, #39A460 18%, #277142 50%, #163E25 100%);
+
+
+
+}
+
+
+.scene4__sky__right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+        
+        
+}
+
+
+.scene4__tree__trunk {
+width: 36px;
+height: 500px;
+flex-shrink: 0;
+background: #382410;
+
+
+
+}
+
+
+
+.scene4__tree__leaves {
+    width: 600px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background: linear-gradient(180deg, #39A460 18%, #277142 50%, #163E25 100%);
+    
+    
+    
+    }

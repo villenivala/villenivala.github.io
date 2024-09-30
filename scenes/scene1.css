@@ -1,0 +1,40 @@
+.scene1__sky__right {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 80%;
+    height: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 120px;
+    gap: 40px;
+}
+
+.scene1__header {
+flex: 1;
+width: 100%;
+}
+
+.scene1__desc {
+flex: 3;
+width: 100%;
+}
+
+.scene1__sky__left {
+display: flex; 
+flex-direction: column;
+height: 100%;
+margin-left: 20px;
+
+
+   
+}
+.scene1__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    flex: 1;
+    width: 100%;
+    padding-bottom: 20px;
+}
+

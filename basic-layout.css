@@ -1,0 +1,72 @@
+/* A simple CSS reset */
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+
+}
+
+
+.main__container {
+    display: flex; /* Allows the scenes to be displayed in a row */
+    flex-direction: row;
+    width: auto;
+    height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden; /* Prevent vertical scrolling */
+
+}
+
+
+.basic__layout {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100vw;
+    width: 80vw;
+    height: 100vh;
+}
+
+
+.basic__layout--row {
+    flex-direction: row;
+
+}
+
+.basic__sub__sky {
+    flex: 0 0 auto;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(180deg, #386393 0%, #416A99 13.5%, #6DB1FF 100%);
+}
+
+
+.basic__sub__sky--column {
+    flex: 0 0 80%;
+    background: linear-gradient(180deg, #386393 0%, #416A99 13.5%, #6DB1FF 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.basic__sub__ground {
+    flex: 1;
+    background: linear-gradient(0deg, #211509 0%, #ECC98B 88%, #FFF 99.5%);
+    height: 20%;
+}
+
+
+
+.magnifying__glass {
+    width: 56px;
+    height: 60px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="61" height="60" viewBox="0 0 61 60" fill="none"><circle cx="20.1667" cy="20.1667" r="17.5" fill="#A8C8E4" fill-opacity="0.6" stroke="black" stroke-width="5.33333"/><line x1="33.4543" y1="33.2122" x2="58.121" y2="57.8788" stroke="black" stroke-width="6"/></svg>');
+    background-size: cover; /* Adjust as needed */
+}
+
+
+
+body {
+    cursor: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MSIgaGVpZ2h0PSI2MCIgdmlld0JveD0iMCAwIDYxIDYwIiBmaWxsPSJuZWciPjxjaXJjbGUgY3g9IjIwLjE2NjciIGN5PSIyMC4xNjY3IiByPSIxNy41IiBmaWxsPSIjQjhDNjY1MSIgZmlsbC1vcGFjaXR5PSIwLjQiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iNS4zMzM1MjUxNyIvPjxsaW5lIHgxPSIzMy40NTQzIiB5MT0iMzMuMjEyMiIgeDI9IjU4LjEyMSIgeTI9IjU3Ljg3ODgiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iNiIvPjwvc3ZnPg==') 28 30, auto;
+}

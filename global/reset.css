@@ -1,0 +1,31 @@
+/* Simple CSS Reset */
+
+/* Box sizing border-box for all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Reset default styles for common elements */
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Make images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Set default font for inputs and buttons */
+  input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+  }

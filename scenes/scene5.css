@@ -1,0 +1,37 @@
+.scene5__sky__top {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    height: 100%;
+    box-sizing: border-box;
+    gap: 20px;
+    padding: 40px;
+    
+}
+
+
+.scene5_sky_top_row {
+height: 100%;
+
+}
+
+
+.scene5__sky__bot {
+    flex: 1.15;
+
+    height: 100%;
+    padding-left: 150px;
+    
+}
+
+
+.scene5__figure{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;    
+    width: 100%;
+    height: 100%;
+    
+}
