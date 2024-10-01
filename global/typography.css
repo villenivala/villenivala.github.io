@@ -54,7 +54,7 @@
     -1px -1px 0px rgba(206, 149, 33, 0.8), /* Lighter Left Up */
     1px -1px 0px rgba(206, 149, 33, 0.8),  /* Lighter Right Up */
     -1px 1px 0px rgba(206, 149, 33, 0.8);  /* Lighter Left Down */
-    font-size: 60px;
+    font-size: 20px;
   }
 
   .text__small {
@@ -67,7 +67,7 @@
     -1px -1px 0px rgba(206, 149, 33, 0.8), 
     1px -1px 0px rgba(206, 149, 33, 0.8),  
     -1px 1px 0px rgba(206, 149, 33, 0.8);  
-    font-size: 50px;
+    font-size: 30px;
   }
 
 
@@ -81,7 +81,7 @@
     -1px -1px 0px rgba(206, 149, 33, 0.8), 
     1px -1px 0px rgba(206, 149, 33, 0.8),  
     -1px 1px 0px rgba(206, 149, 33, 0.8);  
-    font-size: 50px;
+    font-size: 15px;
 }
 
 .text__center {
@@ -118,7 +118,7 @@ text-align: left;
   .graffiti {
     font-family: 'square_peg', serif;
     color: #715d2e;
-    font-size: 25px;
+    font-size: 18px;
     text-transform: uppercase;
     text-shadow: none;
     filter: blur(2px);

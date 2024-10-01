@@ -1,22 +1,23 @@
 .scene1__sky__right {
     display: flex;
     flex-direction: column;
-    flex: 0 0 80%;
     height: 100%;
+    width: 100%;
     align-items: center;
+    justify-content: center;
     box-sizing: border-box;
-    padding: 120px;
-    gap: 40px;
+    gap: 50px;
 }
 
 .scene1__header {
-flex: 1;
-width: 100%;
+width: 80%;
+height: 20%;
+max-width: 800px;
 }
 
 .scene1__desc {
-flex: 3;
-width: 100%;
+width: 80%;
+max-width: 800px;
 }
 
 .scene1__sky__left {
